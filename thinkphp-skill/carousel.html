@@ -1,0 +1,21 @@
+<section class="intro">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" >
+            <volist name="banner" id="v">
+                <li 
+                    data-target="#carousel-example-generic" 
+                    data-slide-to="{$i-1}" 
+                    class="<if condition="$i eq 1">active</if>">
+                </li>
+            </volist>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <volist name="banner" id="v">
+                <div class='item <if condition="$i eq 1">active</if>'>
+    				<img src="{$Think.const.IMG_UPLOAD}{$v.img}">
+    				<div class="carousel-caption"></div>
+                </div>
+            </volist>
+        </div>
+    </div>
+</section>

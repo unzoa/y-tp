@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<include file="Index/head"/>
+<script type="text/javascript">
+	$(document).ready(function(){
+			$('#get').click(function(){
+				var text = $('#text').val();
+				if (text.length==0) {
+					alert('aaa');
+				}else{
+					$.ajax({
+						type:"GET",
+						async:true,
+						url:"{:U('Home/Index/getTest')}",
+						data:{name:text},
+						error:function(msg){alert(msg)},
+						success:function(data){alert(data)}
+					})
+				}
+			})
+
+			$('#post').click(function(){
+				var text = $('#text').val();
+				if (text.length==0) {
+					alert('aaa');
+				}else{
+					$.post('{:U("Home/Index/postTest")}',{name:text},function(data,status){
+						alert('数据：'+data+"\n状态："+status);
+					})
+				}
+			})
+		})
+</script>
+<body>
+	<input type="text" id="text"></input>
+	<button id="get" type="button">get</button>
+	<button id="post" type="button">post</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- 取到html标签的值 -->
+I('标签的name')
+
+<!-- 取到checkbox的值 -->
+<input type="checkbox" name="live_with[]" id="" class="" value="母亲"></input>
+
+<!-- name里必须加[] -->
+ js -
+
+ var live_with = getCheckBox('live_with[]');
+
+php -
+
+$live_with = I('live_with');
+$haha = '';
+for ($i=0; $i <count($live_with) ; $i++) { 
+    if ($live_with[$i]=='') {
+        
+    }else{
+        $haha = $haha.$live_with[$i].',';
+    }
+}
+$child_live_with = substr($haha,0,strlen($haha)-1);

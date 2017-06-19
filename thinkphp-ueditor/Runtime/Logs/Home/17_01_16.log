@@ -1,0 +1,109 @@
+[ 2017-01-16T08:39:11+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023375s ]
+
+[ 2017-01-16T08:44:20+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-01-16T08:44:24+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/index.php/Home/Index/ueditor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `ueditor` [ RunTime:0.0043s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\myHub\thinkphp-ueditor\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\myHub\thinkphp-ueditor\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `ueditor` () VALUES () [ RunTime:0.1257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002026s ]
+
+[ 2017-01-16T08:44:55+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/index.php/Home/Index/ueditor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `ueditor` [ RunTime:0.0028s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\myHub\thinkphp-ueditor\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\myHub\thinkphp-ueditor\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `ueditor` () VALUES () [ RunTime:0.0990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002655s ]
+
+[ 2017-01-16T08:45:43+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/index.php/Home/Index/ueditor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `ueditor` [ RunTime:0.0027s ]
+SQL: INSERT INTO `ueditor` (`content`) VALUES ('&lt;p&gt;打哈还是啥可好看&lt;/p&gt;') [ RunTime:0.0891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2017-01-16T08:47:42+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/index.php/Home/Index/ueditor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `ueditor` [ RunTime:0.0024s ]
+SQL: INSERT INTO `ueditor` (`content`) VALUES ('&lt;p&gt;打哈还是啥可好看&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/Public/Upload/20170116/2017-01-16_297779_525809108.jpg&quot; title=&quot;2017-01-16_297779_525809108.jpg&quot; alt=&quot;525809108.jpg&quot; width=&quot;326&quot; height=&quot;337&quot;/&gt;&lt;/p&gt;') [ RunTime:0.1110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2017-01-16T08:56:57+08:00 ] 127.0.0.1 /myHub/thinkphp-ueditor/index.php/Home/Index/ueditor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `ueditor` [ RunTime:0.0027s ]
+SQL: INSERT INTO `ueditor` (`content`) VALUES ('&lt;p&gt;打哈还是啥可好看&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/myHub/thinkphp-ueditor/Public/Upload/20170116/2017-01-16_259610_headDefault-01.png&quot; title=&quot;2017-01-16_259610_headDefault-01.png&quot; alt=&quot;headDefault-01.png&quot;/&gt;&lt;/p&gt;') [ RunTime:0.1186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
